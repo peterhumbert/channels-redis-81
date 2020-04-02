@@ -1,4 +1,6 @@
 <!-- chat/templates/chat/index.html -->
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +12,7 @@
     <input id="room-name-input" type="text" size="100"><br>
     <input id="room-name-submit" type="button" value="Enter">
 
+    <img src="{% static 'django.png' %}" />
     <script>
         document.querySelector('#room-name-input').focus();
         document.querySelector('#room-name-input').onkeyup = function(e) {
