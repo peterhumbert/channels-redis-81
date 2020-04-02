@@ -1,6 +1,8 @@
 from .settings import *
 import os
 
+ALLOWED_HOSTS = ['repro-81-dev.us-west-2.elasticbeanstalk.com']
+
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
