@@ -1,7 +1,7 @@
 from .settings import *
 import os
 
-ALLOWED_HOSTS = ['repro-81-dev.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['repro-81-dev-async.us-west-2.elasticbeanstalk.com']
 
 CHANNEL_LAYERS = {
     'default': {
